@@ -2122,8 +2122,8 @@ div.switch {
     div.switch.round label {
       padding: 0 0.5625rem; }
 
-/* Extra Styling for Greeting Panel */
-#greeting {
+/* Extra Styling for Greeting class */
+.greeting {
   text-align: left;
 }
 
