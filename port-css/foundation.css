@@ -2122,6 +2122,11 @@ div.switch {
     div.switch.round label {
       padding: 0 0.5625rem; }
 
+/* Extra Styling for Greeting Panel */
+#greeting {
+  text-align: left;
+}
+
 /* Image Thumbnails */
 .th {
   line-height: 0;
