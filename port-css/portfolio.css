@@ -1,0 +1,10 @@
+/* Extra Styling for Greeting class */
+.greeting {
+  text-align: left;
+}
+
+/* Extra Styling for Great Wall Image */
+#greatwallpic {
+  max-width: 70%;
+  min-width: 190px;
+}
