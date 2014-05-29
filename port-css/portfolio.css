@@ -8,3 +8,9 @@
   max-width: 70%;
   min-width: 190px;
 }
+
+#footer {
+	background-color: #222222;
+	color: white;
+	padding-top: 5px;
+}
