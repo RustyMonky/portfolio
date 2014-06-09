@@ -14,3 +14,15 @@
 	color: white;
 	padding-top: 5px;
 }
+
+#resume-topright {
+	float: right;
+}
+
+#resume-top {
+	background-color: #222222;
+}
+
+.resume-header {
+	color: #008cba
+}
