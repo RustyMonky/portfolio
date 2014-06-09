@@ -3,11 +3,10 @@
 
 	<head>
 		<title>Ian Cantor's Resume</title>
-		<link rel="stylesheet" href="port-css/foundation.css" />
+		<link rel="stylesheet" href="port-css/foundation.min.css" />
 		<link rel="stylesheet" type="text/css" href="port-css/portfolio.css">
 		<link rel="stylesheet" href="port-css/social_foundicons.css" />
-		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="port-js/portfolio.js"></script>
+		<script src="port-js/vendor/modernizr.js"></script>
 	</head>
 	<body>
 
@@ -39,32 +38,54 @@
 
 		<!-- Skills -->
 		<div class="row">
-			<div class="small-4 columns">
+			<div class="small-3 columns">
 				<h1 class="resume-header" id="resume-skills">SKILLS</h1>
 			</div>
-			<div class="small-4 columns">
-				<h4 class="skill-header">Proficient</h4>
-				<ul>
-					<li>HTML5, CSS3, Sass</li>
-					<li>Ruby, Rails</li>
-					<li>JavaScript, jQuery</li>
-					<li>AJAX</li>
-					<li>Bootstrap, Foundation</li>
-					<li>UX, UI Design</li>
-					<li>Unix</li>
-					<li>Git version control</li>
-				</ul>
+
+			<div class="small-9 columns">
+				<!-- Tab List -->
+				<dl class="accordion" data-accordion>
+					<dd>
+						<a href="#proficient">Proficient</a>
+						<div class="content active" id="proficient">
+							<ul>
+								<li>HTML5, CSS3, Sass</li>
+								<li>Ruby, Rails</li>
+								<li>JavaScript, jQuery</li>
+								<li>AJAX</li>
+								<li>Bootstrap, Foundation</li>
+								<li>UX, UI Design</li>
+								<li>Unix</li>
+								<li>Git version control</li>
+							</ul>
+						</div>
+					</dd>
+					<dd>
+						<a href="#devel">Developing</a>
+						<div class="content" id="devel">
+							<ul>
+								<li>Angular.js</li>
+								<li>Node.js</li>
+								<li>Rspec</li>
+								<li>Python</li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
 			</div>
-			<div class="small-4 columns">
-				<h4 class="skill-header">Developing</h4>
-				<ul>
-					<li>Angular.js</li>
-					<li>Node.js</li>
-					<li>Rspec</li>
-					<li>Python</li>
-				</ul>
+
+		</div>
+
+		<!-- Experience -->
+		<div class="row">
+			<div class="small-3 columns">
+				<h1 class="resume-header" id="resume-exp">EXPERIENCE</h1>
 			</div>
 		</div>
 
+		<script src="port-js/jquery.js"></script>
+		<script src="port-js/vendor/fastclick.js"></script>
+		<script type="text/javascript" src="port-js/foundation.min.js"></script>
+		<script>$(document).foundation();</script>
 	</body>
 </html>
