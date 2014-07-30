@@ -32,6 +32,12 @@
 	font-family: lobster-two, cursive;
 }
 
+.project-block {
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #222222;
+}
+
 #footer {
 	background-color: #222222;
 	color: white;
