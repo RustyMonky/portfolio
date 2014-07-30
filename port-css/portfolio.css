@@ -1,5 +1,6 @@
 .greeting {
   text-align: left;
+  color: #222222;
 }
 
 /* Opening paragraph font-size media queries */
@@ -19,6 +20,9 @@
 @media screen and (min-width: 1025px) {
 	#opening {
 		font-size: 24px;
+	}
+	img {
+		max-height: 189px;
 	}
 }
 
