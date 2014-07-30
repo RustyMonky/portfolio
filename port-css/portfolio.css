@@ -3,6 +3,12 @@
   text-align: left;
 }
 
+@media screen and (min-width: 1025px){
+	.greeting {
+		font-size: 26.5px;
+	}
+}
+
 /* Extra Styling for Great Wall Image */
 #greatwallpic {
   max-width: 70%;
