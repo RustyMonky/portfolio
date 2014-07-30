@@ -24,6 +24,10 @@
 	img {
 		max-height: 189px;
 	}
+	#project-blurb {
+		height: 150px;
+		overflow: scroll;
+	}
 }
 
 #greatwallpic {
