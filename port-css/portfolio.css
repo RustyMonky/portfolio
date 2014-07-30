@@ -1,4 +1,3 @@
-/* Styling for Greeting class */
 .greeting {
   text-align: left;
 }
@@ -23,13 +22,12 @@
 	}
 }
 
-/* Styling for Great Wall Image */
 #greatwallpic {
   max-width: 70%;
   min-width: 190px;
 }
 
-#work-title {
+.work-title {
 	margin-bottom: 10px;
 	font-family: lobster-two, cursive;
 }
